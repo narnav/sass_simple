@@ -1,0 +1,43 @@
+@import "reset";
+
+.button-basic  {
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button-report  {
+    @extend .button-basic;
+    background-color: red;
+  }
+  
+  .button-submit  {
+    @extend .button-basic;
+    background-color: green;
+    color: rgb(12, 7, 7);
+    font-weight: bold;
+    border-radius: 50%;
+  }
+
+
+
+div {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: red;
+  background-color: aqua;
+}
+
+h2{
+    @include important-text;
+    // color:blue;
+    font-size: 48px;
+}
+
+
+h3{
+    @include important-text;
+    font-size: 48px;
+}

@@ -1,0 +1,50 @@
+html,
+body,
+ul, div,
+ol {
+  margin: 0;
+  padding: 100px;
+}
+
+.button-basic, .button-report, .button-submit {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-report {
+  background-color: red;
+}
+
+.button-submit {
+  background-color: green;
+  color: #0c0707;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+div {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: red;
+  background-color: aqua;
+}
+
+h2 {
+  color: #00ff37;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  font-size: 48px;
+}
+
+h3 {
+  color: #00ff37;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  font-size: 48px;
+}
+/*# sourceMappingURL=standart.css.map */
